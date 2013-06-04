@@ -1,4 +1,4 @@
-Etude Plat-forme Mobile
+Etude Plate-forme Mobile
 =======================
 
 Research on the Mobile Platform
