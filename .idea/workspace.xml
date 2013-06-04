@@ -6,7 +6,7 @@
     <ignored path=".idea/workspace.xml" />
     <file path="/Dummy.txt" changelist="b71a9710-5fcc-4b19-bc48-5ba2b300560d" time="1370320607091" ignored="false" />
     <file path="$PROJECT_DIR$/../etude-plate-forme-mobile/public/index.html" changelist="b71a9710-5fcc-4b19-bc48-5ba2b300560d" time="1370320696385" ignored="false" />
-    <file path="/README.md" changelist="b71a9710-5fcc-4b19-bc48-5ba2b300560d" time="1370320902702" ignored="false" />
+    <file path="/README.md" changelist="b71a9710-5fcc-4b19-bc48-5ba2b300560d" time="1370321026461" ignored="false" />
     <option name="TRACKING_ENABLED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -29,7 +29,7 @@
       <file leaf-file-name="README.md" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/README.md">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="5" column="25" selection-start="120" selection-end="120" vertical-scroll-proportion="0.09309967">
+            <state line="4" column="40" selection-start="113" selection-end="113" vertical-scroll-proportion="0.07447974">
               <folding />
             </state>
           </provider>
@@ -217,7 +217,7 @@
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/README.md">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="5" column="25" selection-start="120" selection-end="120" vertical-scroll-proportion="0.09309967">
+        <state line="4" column="40" selection-start="113" selection-end="113" vertical-scroll-proportion="0.07447974">
           <folding />
         </state>
       </provider>

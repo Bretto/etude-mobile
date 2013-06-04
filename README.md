@@ -1,5 +1,4 @@
-Etude Plate-forme Mobile
-=======================
+Etude stratégique plate-forme mobile
+====================================
 
-Research on the Mobile Platform
 http://bretto.github.io/etude-mobile/
