@@ -75,7 +75,7 @@ angular.module('App', ['App.controllers', 'App.filters', 'App.services', 'App.di
                 views: {
                     'page@': {
                         templateUrl: function (stateParams) {
-                            return '/partials/produit-scan.html';
+                            return 'partials/produit-scan.html';
                         }
                     }
                 }
@@ -96,7 +96,7 @@ angular.module('App', ['App.controllers', 'App.filters', 'App.services', 'App.di
                 views: {
                     'page@': {
                         templateUrl: function (stateParams) {
-                            return '/partials/panier-edit.html';
+                            return 'partials/panier-edit.html';
                         }
                     }
                 }
@@ -107,7 +107,7 @@ angular.module('App', ['App.controllers', 'App.filters', 'App.services', 'App.di
                 views: {
                     'page@': {
                         templateUrl: function (stateParams) {
-                            return '/partials/produit-ajouter-au-panier.html';
+                            return 'partials/produit-ajouter-au-panier.html';
                         }
                     }
                 }
@@ -117,7 +117,7 @@ angular.module('App', ['App.controllers', 'App.filters', 'App.services', 'App.di
                 views: {
                     'page@': {
                         templateUrl: function (stateParams) {
-                            return '/partials/panier-detail.html';
+                            return 'partials/panier-detail.html';
                         }
                     }
                 }
@@ -128,7 +128,7 @@ angular.module('App', ['App.controllers', 'App.filters', 'App.services', 'App.di
                 views: {
                     'page@': {
                         templateUrl: function (stateParams) {
-                            return '/partials/produit-detail.html';
+                            return 'partials/produit-detail.html';
                         }
                     }
                 }
@@ -140,7 +140,7 @@ angular.module('App', ['App.controllers', 'App.filters', 'App.services', 'App.di
                 views: {
                     'page@': {
                         templateUrl: function (stateParams) {
-                            return '/partials/recherche.html';
+                            return 'partials/recherche.html';
                         }
                     }
                 }
@@ -150,7 +150,7 @@ angular.module('App', ['App.controllers', 'App.filters', 'App.services', 'App.di
                 views: {
                     'page@': {
                         templateUrl: function (stateParams) {
-                            return '/partials/produit-detail.html';
+                            return 'partials/produit-detail.html';
                         }
                     }
                 }
@@ -160,7 +160,7 @@ angular.module('App', ['App.controllers', 'App.filters', 'App.services', 'App.di
                 views: {
                     'page@': {
                         templateUrl: function (stateParams) {
-                            return '/partials/produit-moins-cher.html';
+                            return 'partials/produit-moins-cher.html';
                         }
                     }
                 }
@@ -170,7 +170,7 @@ angular.module('App', ['App.controllers', 'App.filters', 'App.services', 'App.di
                 views: {
                     'page@': {
                         templateUrl: function (stateParams) {
-                            return '/partials/panier-moins-cher.html';
+                            return 'partials/panier-moins-cher.html';
                         }
                     }
                 }
@@ -180,7 +180,7 @@ angular.module('App', ['App.controllers', 'App.filters', 'App.services', 'App.di
                 views: {
                     'page@': {
                         templateUrl: function (stateParams) {
-                            return '/partials/panier-moins-cher-detail.html';
+                            return 'partials/panier-moins-cher-detail.html';
                         }
                     }
                 }
@@ -190,7 +190,7 @@ angular.module('App', ['App.controllers', 'App.filters', 'App.services', 'App.di
                 views: {
                     'page@': {
                         templateUrl: function (stateParams) {
-                            return '/partials/recherche-config.html';
+                            return 'partials/recherche-config.html';
                         }
                     }
                 }
@@ -200,7 +200,7 @@ angular.module('App', ['App.controllers', 'App.filters', 'App.services', 'App.di
                 views: {
                     'page@': {
                         templateUrl: function (stateParams) {
-                            return '/partials/recherche-commune.html';
+                            return 'partials/recherche-commune.html';
                         }
                     }
                 }
@@ -210,7 +210,7 @@ angular.module('App', ['App.controllers', 'App.filters', 'App.services', 'App.di
                 views: {
                     'page@': {
                         templateUrl: function (stateParams) {
-                            return '/partials/recherche-historique.html';
+                            return 'partials/recherche-historique.html';
                         }
                     }
                 }
@@ -220,7 +220,7 @@ angular.module('App', ['App.controllers', 'App.filters', 'App.services', 'App.di
                 views: {
                     'page@': {
                         templateUrl: function (stateParams) {
-                            return '/partials/produit-detail.html';
+                            return 'partials/produit-detail.html';
                         }
                     }
                 }
