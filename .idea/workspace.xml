@@ -51,10 +51,10 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="panier-liste.html" pinned="false" current="true" current-in-tab="true">
+      <file leaf-file-name="panier-liste.html" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/partials/panier-liste.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="10" column="46" selection-start="487" selection-end="487" vertical-scroll-proportion="0.19165727">
+            <state line="25" column="54" selection-start="907" selection-end="907" vertical-scroll-proportion="-16.346153">
               <folding />
             </state>
           </provider>
@@ -69,10 +69,10 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="app.appcache" pinned="false" current="false" current-in-tab="false">
+      <file leaf-file-name="app.appcache" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/app.appcache">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="3" column="23" selection-start="25" selection-end="25" vertical-scroll-proportion="0.0">
+            <state line="1" column="8" selection-start="23" selection-end="23" vertical-scroll-proportion="0.018619934">
               <folding />
             </state>
           </provider>
@@ -136,8 +136,8 @@
         <option value="$PROJECT_DIR$/js/app.js" />
         <option value="$PROJECT_DIR$/js/controllers.js" />
         <option value="$PROJECT_DIR$/index.html" />
-        <option value="$PROJECT_DIR$/app.appcache" />
         <option value="$PROJECT_DIR$/partials/panier-liste.html" />
+        <option value="$PROJECT_DIR$/app.appcache" />
       </list>
     </option>
   </component>
@@ -403,13 +403,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app.appcache">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="3" column="23" selection-start="25" selection-end="25" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/index.html">
       <provider selected="true" editor-type-id="text-editor">
         <state line="4" column="39" selection-start="113" selection-end="113" vertical-scroll-proportion="-2.6153846">
@@ -419,7 +412,14 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/partials/panier-liste.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="10" column="46" selection-start="487" selection-end="487" vertical-scroll-proportion="0.19165727">
+        <state line="25" column="54" selection-start="907" selection-end="907" vertical-scroll-proportion="-16.346153">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app.appcache">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="1" column="8" selection-start="23" selection-end="23" vertical-scroll-proportion="0.018619934">
           <folding />
         </state>
       </provider>
