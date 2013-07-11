@@ -7,6 +7,8 @@
     <file path="/Dummy.txt" changelist="b71a9710-5fcc-4b19-bc48-5ba2b300560d" time="1373574145452" ignored="false" />
     <file path="$PROJECT_DIR$/../etude-plate-forme-mobile/public/index.html" changelist="b71a9710-5fcc-4b19-bc48-5ba2b300560d" time="1370320696385" ignored="false" />
     <file path="/README.md" changelist="b71a9710-5fcc-4b19-bc48-5ba2b300560d" time="1370321026461" ignored="false" />
+    <file path="/index.html" changelist="b71a9710-5fcc-4b19-bc48-5ba2b300560d" time="1373578571964" ignored="false" />
+    <file path="/panier-liste.html" changelist="b71a9710-5fcc-4b19-bc48-5ba2b300560d" time="1373578651903" ignored="false" />
     <option name="TRACKING_ENABLED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -38,16 +40,34 @@
       <file leaf-file-name="index.html" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/index.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="-0.0">
+            <state line="8" column="97" selection-start="403" selection-end="403" vertical-scroll-proportion="-5.230769">
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="app.js" pinned="false" current="true" current-in-tab="true">
+      <file leaf-file-name="panier-liste.html" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/partials/panier-liste.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="11" column="55" selection-start="505" selection-end="505" vertical-scroll-proportion="-7.1923075">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="app.js" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/js/app.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="2" column="26" selection-start="25" selection-end="25" vertical-scroll-proportion="0.03723987">
+            <state line="12" column="27" selection-start="519" selection-end="519" vertical-scroll-proportion="0.0">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="app.appcache" pinned="false" current="true" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/app.appcache">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="4" column="45" selection-start="32" selection-end="32" vertical-scroll-proportion="0.07447974">
               <folding />
             </state>
           </provider>
@@ -81,9 +101,10 @@
     <option name="changedFiles">
       <list>
         <option value="$PROJECT_DIR$/README.md" />
-        <option value="$PROJECT_DIR$/index.html" />
-        <option value="$PROJECT_DIR$/app.appcache" />
         <option value="$PROJECT_DIR$/js/app.js" />
+        <option value="$PROJECT_DIR$/index.html" />
+        <option value="$PROJECT_DIR$/partials/panier-liste.html" />
+        <option value="$PROJECT_DIR$/app.appcache" />
       </list>
     </option>
   </component>
@@ -320,23 +341,30 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/js/app.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="12" column="27" selection-start="519" selection-end="519" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/index.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="-0.0">
+        <state line="8" column="97" selection-start="403" selection-end="403" vertical-scroll-proportion="-5.230769">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/partials/panier-liste.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="11" column="55" selection-start="505" selection-end="505" vertical-scroll-proportion="-7.1923075">
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/app.appcache">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="18" column="80" selection-start="528" selection-end="528" vertical-scroll-proportion="0.21796276">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/js/app.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="2" column="26" selection-start="25" selection-end="25" vertical-scroll-proportion="0.03723987">
+        <state line="4" column="45" selection-start="32" selection-end="32" vertical-scroll-proportion="0.07447974">
           <folding />
         </state>
       </provider>
