@@ -1,0 +1,27 @@
+<div class="page produit-detail-ctrl" data-ng-controller="ProduitDetailCtrl">
+    <header>
+        <div class="inner">
+            <div class="sec-nav-btn pull-left" data-ng-click="onBack()"><i class="icon-circle-arrow-left sec-nav-icon"></i></div>
+            <div class="sec-nav-btn pull-right" data-ng-click="onRechercheConfig()"><i class="icon-cog sec-nav-icon"></i></div>
+            <h1>Produit Detail</h1>
+        </div>
+    </header>
+    <div class="content">
+        <div class="produit-wrap">
+            <h3>Nom du produit</h3>
+            <h4>EAN: 368463846846464</h4>
+            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+            <h4>Quantité</h4>
+            <div class="quantite">
+                <button data-ng-click="onMin()" class="btn btn-inverse pull-left"><i class="icon-minus"></i></button>
+                <button data-ng-click="onAdd()" class="btn btn-inverse pull-right"><i class="icon-plus"></i></button>
+                <h1>(x{{produitCnt}})</h1>
+            </div>
+        </div>
+    </div>
+    <div class="btn-controls">
+        <button data-ng-click="onProduitMoinsCher()" class="btn btn-block btn-large btn-inverse">Produit le moins cher</button>
+        <button data-ng-click="onAjouterAuPanier()" class="btn btn-block btn-large btn-inverse">Ajouter aux panier</button>
+    </div>
+</div>
+

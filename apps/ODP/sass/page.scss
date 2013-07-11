@@ -1,0 +1,68 @@
+.page {
+
+  background: #fff;
+  width: 100%;
+  left: 0;
+  right: 0;
+  top: 0;
+  bottom: 0;
+  position: absolute;
+  display: block;
+
+  header {
+
+    @include reflection;
+
+    height: $title-bar-height;
+    position: absolute;
+    width: 100%;
+    background: #1b1b1b;
+    box-shadow: 0 0 2px 2px rgba(#000, .5);
+    //border-top: rgba(#fff, .2) solid 1px;
+    border-bottom: rgba(#fff, .4) solid 1px;
+    z-index: 1;
+
+    .inner {
+      padding: 5px;
+      position: relative;
+
+      h1 {
+        color: #ffffff;
+        text-shadow: black 0 -1px 0;
+        font-size: 20px;
+        text-align: center;
+        line-height: 33px;
+        margin: 0 50px;
+      }
+    }
+  }
+
+  .content {
+
+    left: 0;
+    right: 0;
+    top: 0;
+    bottom: 0;
+    position: absolute;
+    margin-top: $title-bar-height;
+    margin-bottom: $pri-nav-height;
+
+  }
+
+  .btn-controls{
+
+    &:after {
+      content: '';
+      background: #ff0000;
+      position: absolute;
+      width: 100%;
+      left: 0;
+      right: 0;
+      border-top: #ddd solid 1px;
+      top: 1px;
+    }
+  }
+
+}
+
+

@@ -1,0 +1,21 @@
+<div class="page panier-detail-ctrl" data-ng-controller="PanierDetailCtrl">
+    <header>
+        <div class="inner">
+            <div class="sec-nav-btn pull-left" data-ng-click="onBack()"><i class="icon-circle-arrow-left sec-nav-icon"></i></div>
+            <h1>Panier Detail</h1>
+        </div>
+    </header>
+    <div class="content">
+        <ul class="produit-liste">
+            <li class="produit"
+                data-ng-click="onSelectProduit(produit)"
+                data-ng-repeat="produit in produitListe"
+                data-ng-class="{active: produit.isActive}">
+                <span>{{produit.name}}</span><span class="cnt"> (x{{produit.cnt}})</span><i class="icon-chevron-right pull-right"></i>
+            </li>
+        </ul>
+    </div>
+    <div class="btn-controls">
+        <button class="btn btn-block btn-large btn-inverse" data-ng-click="onPanierMoinsCher()">Panier le moin cher</button>
+    </div>
+</div>

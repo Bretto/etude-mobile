@@ -1,0 +1,21 @@
+<div class="page produit-ajouter-au-panier-ctrl" data-ng-controller="ProduitAjouterAuPanierCtrl">
+    <header>
+        <div class="inner">
+            <div class="sec-nav-btn pull-left" data-ng-click="onBack()"><i class="icon-circle-arrow-left sec-nav-icon"></i></div>
+            <h1>Ajouter au Panier</h1>
+        </div>
+    </header>
+    <div class="content">
+        <ul class="panier-liste">
+            <li class="panier"
+                data-ng-click="onSelectPanier(panier)"
+                data-ng-repeat="panier in panierListe"
+                data-ng-class="{active: panier.isActive}">
+                {{panier.name}}
+            </li>
+        </ul>
+    </div>
+    <div class="btn-controls">
+        <button class="btn btn-block btn-large btn-inverse" data-ng-click="onAjouterAuPanier()">Ajouter aux paniers sélectioné</button>
+    </div>
+</div>

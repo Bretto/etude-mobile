@@ -1,0 +1,40 @@
+.panier-moins-cher-ctrl{
+
+  .panier-moins-cher-liste{
+    list-style-type: none;
+    height: 100%;
+    margin: 0;
+    overflow: scroll;
+    overflow-x: hidden;
+    -webkit-overflow-scrolling: touch;
+
+    .panier-moins-cher{
+      padding: 20px;
+      border-bottom: #ddd solid 1px;
+
+      i{
+        margin-top: 4px;
+        color: #ddd;
+      }
+
+      &.active{
+        background: #006dcc;
+        color: #ffffff;
+
+        i{
+          color: #ffffff;
+        }
+      }
+
+      h1{
+        font-size: 14px;
+        font-weight: bold;
+        margin: 0;
+        margin-bottom: 10px;
+        line-height: 14px;
+      }
+
+    }
+  }
+}
+

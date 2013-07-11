@@ -1,0 +1,40 @@
+.produit-detail-ctrl{
+
+  .content{
+    padding: 20px;
+    margin-bottom: 170px;
+  }
+
+  .produit-wrap{
+    height: 100%;
+    margin: 0;
+    overflow: scroll;
+    overflow-x: hidden;
+    -webkit-overflow-scrolling: touch;
+  }
+
+  h3,h4{
+    margin-top: 0;
+    line-height: 20px;
+  }
+
+  .quantite{
+    h1{
+      text-align: center;
+    }
+  }
+
+
+
+  .btn-controls{
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    background: #bbb;
+    padding: 10px 5px;
+    margin-bottom: $pri-nav-height;
+
+  }
+}
+
