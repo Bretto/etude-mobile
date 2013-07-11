@@ -1,5 +1,7 @@
 'use strict';
 
+//test
+
 angular.module('App', ['App.controllers', 'App.filters', 'App.services', 'App.directives', 'ngMobile', 'ui.compat']).
     config(function ($stateProvider, $urlRouterProvider, $routeProvider, $locationProvider, $provide) {
 
