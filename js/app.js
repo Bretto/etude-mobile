@@ -84,7 +84,7 @@ angular.module('App', ['App.controllers', 'App.filters', 'App.services', 'App.di
                 views: {
                     'page@': {
                         templateUrl: function (stateParams) {
-                            return '/partials/panier-liste.html';
+                            return 'partials/panier-liste.html';
                         }
                     }
                 }
