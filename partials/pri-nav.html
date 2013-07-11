@@ -1,0 +1,22 @@
+<div class="pri-nav" data-ng-controller="PrimaryNavCtrl">
+    <ul>
+        <li ng-class="dataModel.isPriNavActive('scan')">
+            <a data-ng-click="onScan()">
+                <i class="icon-camera pri-nav-icon"></i>
+                <h1>Scan</h1>
+            </a>
+        </li>
+        <li ng-class="dataModel.isPriNavActive('panier')">
+            <a data-ng-click="onPanier()">
+                <i class="icon-shopping-cart pri-nav-icon"></i>
+                <h1>Panier</h1>
+            </a>
+        </li>
+        <li ng-class="dataModel.isPriNavActive('recherche')">
+            <a data-ng-click="onRecherche()">
+                <i class="icon-search pri-nav-icon"></i>
+                <h1>Recherche</h1>
+            </a>
+        </li>
+    </ul>
+</div>

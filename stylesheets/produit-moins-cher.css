@@ -1,0 +1,22 @@
+/* line 3, ../sass/produit-moins-cher.scss */
+.produit-moins-cher-ctrl .produit-moins-cher-liste {
+  list-style-type: none;
+  height: 100%;
+  margin: 0;
+  overflow: scroll;
+  overflow-x: hidden;
+  -webkit-overflow-scrolling: touch;
+}
+/* line 11, ../sass/produit-moins-cher.scss */
+.produit-moins-cher-ctrl .produit-moins-cher-liste .produit-moins-cher {
+  padding: 20px;
+  border-bottom: #ddd solid 1px;
+}
+/* line 15, ../sass/produit-moins-cher.scss */
+.produit-moins-cher-ctrl .produit-moins-cher-liste .produit-moins-cher h1 {
+  font-size: 14px;
+  font-weight: bold;
+  margin: 0;
+  margin-bottom: 10px;
+  line-height: 14px;
+}

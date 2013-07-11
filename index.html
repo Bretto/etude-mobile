@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<!--manifest="app.appcache"-->
+<html id="App" manifest="app.appcache">
+<head>
+    <title></title>
+    <meta name="apple-mobile-web-app-capable" content="yes">
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+    <link rel='stylesheet' href='stylesheets/bootstrap.css'/>
+    <link rel="stylesheet" href="stylesheets/font-awesome.min.css">
+    <link rel='stylesheet' href='stylesheets/animations.css'/>
+    <link rel='stylesheet' href='stylesheets/screen.css'/>
+
+    <!-- iPhone ICON -->
+    <link href="apple-touch-icon-57x57.png" sizes="57x57" rel="apple-touch-icon">
+    <!-- iPhone (Retina) ICON-->
+    <link href="apple-touch-icon-114x114.png" sizes="114x114" rel="apple-touch-icon">
+
+    <!-- iPhone SPLASHSCREEN-->
+    <link href="apple-touch-startup-image-320x460.png" media="(device-width: 320px)" rel="apple-touch-startup-image">
+    <!-- iPhone (Retina) SPLASHSCREEN-->
+    <link href="apple-touch-startup-image-640x920.png" media="(device-width: 320px) and (-webkit-device-pixel-ratio: 2)"
+          rel="apple-touch-startup-image">
+</head>
+<body>
+<div class="app" data-ng-controller="AppCtrl">
+    <section class="main">
+        <!---->
+        <div ui-view="page" class="content" data-ng-animate="vewSlideAnimation"></div>
+    </section>
+    <section class="navigation">
+        <div class="content">
+            <div ng-include="'partials/pri-nav.html'"></div>
+        </div>
+    </section>
+    <section class="please-rotate">
+        <img data-ng-src="img/please-rotate.gif">
+    </section>
+</div>
+<section ng-cloak class="logger-wrap">
+    <div data-ng-show="isLoggerOpen" class="logger"></div>
+    <button data-ng-click="isLoggerOpen=!isLoggerOpen" class="btn btn-inverse logger-btn"></button>
+</section>
+
+
+<!--<script src="libs/q.min.js"></script>-->
+<!--<script src="libs/jsonrpc.js"></script>-->
+<!--<script src="libs/SequelSphereDB.js"></script>-->
+<script src="libs/angular.min.js"></script>
+<script src="libs/jquery-1.9.1.min.js"></script>
+<script src="libs/angular-mobile.js"></script>
+<script src="libs/angular-ui-router.js"></script>
+<script src="js/app.js"></script>
+<script src="js/services.js"></script>
+<script src="js/filters.js"></script>
+<script src="js/controllers.js"></script>
+<script src="js/directives.js"></script>
+
+<script>
+    angular.element(document).ready(function () {
+
+        console.log('ngReady');
+
+//        window.onerror = function(err,url,line){
+//            alert('window.onerror:', err);
+//        }
+//
+//        db.onready(function () {
+//            console.log('dbReady')
+            angular.bootstrap(document, ['App']);
+//        });
+
+    });
+</script>
+
+</body>
+</html>
+

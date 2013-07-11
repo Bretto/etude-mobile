@@ -1,0 +1,27 @@
+<div class="page recherche-ctrl" data-ng-controller="RechercheCtrl">
+    <header>
+        <div class="inner">
+            <div class="sec-nav-btn pull-left" data-ng-click="onHistorique()"><i class="icon-eye-open sec-nav-icon"></i>
+            </div>
+            <div class="sec-nav-btn pull-right" data-ng-click="onRechercheConfig()"><i
+                    class="icon-cog sec-nav-icon"></i></div>
+            <h1>Recherche</h1>
+        </div>
+    </header>
+    <div class="content">
+        <ul class="produit-liste">
+            <li class="produit"
+                data-ng-click="onSelectProduit(produit)"
+                data-ng-repeat="produit in produitListe | searchFilter:search"
+                data-ng-class="{active: produit.isActive}">
+                {{produit.name}}<i class="icon-chevron-right pull-right"></i>
+            </li>
+        </ul>
+    </div>
+    <div class="btn-controls">
+        <input type="text" ng-model="search.text" class="search-query">
+        <i class="icon-search"></i>
+    </div>
+
+</div>
+

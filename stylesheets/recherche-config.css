@@ -1,0 +1,29 @@
+/* line 3, ../sass/recherche-config.scss */
+.recherche-config-ctrl .content {
+  padding: 20px;
+}
+/* line 7, ../sass/recherche-config.scss */
+.recherche-config-ctrl h1 {
+  text-align: center;
+}
+/* line 11, ../sass/recherche-config.scss */
+.recherche-config-ctrl .commune {
+  margin-bottom: 20px;
+}
+/* line 15, ../sass/recherche-config.scss */
+.recherche-config-ctrl .commune i {
+  margin-right: 17px;
+  margin-top: 4px !important;
+}
+/* line 21, ../sass/recherche-config.scss */
+.recherche-config-ctrl section {
+  margin-bottom: 20px;
+}
+/* line 27, ../sass/recherche-config.scss */
+.recherche-config-ctrl .range-wrap {
+  position: relative;
+}
+/* line 31, ../sass/recherche-config.scss */
+.recherche-config-ctrl .range-wrap input {
+  width: 100% !important;
+}

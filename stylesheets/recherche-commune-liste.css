@@ -1,0 +1,19 @@
+/* line 3, ../sass/recherche-commune-liste.scss */
+.panier-liste-ctrl .panier-liste {
+  list-style-type: none;
+  height: 100%;
+  margin: 0;
+  overflow: scroll;
+  overflow-x: hidden;
+  -webkit-overflow-scrolling: touch;
+}
+/* line 11, ../sass/recherche-commune-liste.scss */
+.panier-liste-ctrl .panier-liste .panier {
+  padding: 20px;
+  border-bottom: #ddd solid 1px;
+}
+/* line 15, ../sass/recherche-commune-liste.scss */
+.panier-liste-ctrl .panier-liste .panier.active {
+  background: #006dcc;
+  color: #ffffff;
+}
